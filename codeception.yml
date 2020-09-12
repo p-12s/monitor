@@ -1,0 +1,24 @@
+actor: Tester
+paths:
+    tests: tests
+    log: tests/_output
+    output: tests/_output
+    data: tests/_data
+    support: tests/_support
+    envs: tests/_envs
+    helpers: tests/_support
+actor_suffix: Tester
+settings:
+    bootstrap: _bootstrap.php
+    colors: false
+    memory_limit: 512M
+modules:
+    config:
+        DataHelper:
+            db:
+                host: localhost
+                user: invest
+                password: invest
+                port: 5432
+            env:
+                stubDelay: 2

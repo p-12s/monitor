@@ -1,0 +1,21 @@
+.table {
+    width: 100%;
+    padding: 20px;
+    border-spacing: inherit;
+    border-collapse: collapse;
+}
+.table th,
+.table td {
+    border: 1px solid #ccc;
+}
+.table td {
+    padding: 5px;
+}
+.pagination > li {
+    float: left;
+    display: inline-block;
+    margin: 0 6px;
+}
+.input-long {
+    width: 500px;
+}

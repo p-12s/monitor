@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Noto Serif';
+    src: url("../fonts/notoserifbold.woff2") format("woff2"), url("../fonts/notoserifbold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url("../fonts/notoserifitalic.woff2") format("woff2"), url("../fonts/notoserifitalic.woff") format("woff");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/OpenSans-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: italic;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a, button, input{
+    outline: none !important;
+    text-decoration: none !important;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+input[type=checkbox]{
+    appearance: checkbox;
+    -webkit-appearance: checkbox;
+    -moz-appearance: checkbox;
+}
+body{
+    display: flex;
+    flex-direction: row;
+}
+svg{
+    fill: currentColor;
+}

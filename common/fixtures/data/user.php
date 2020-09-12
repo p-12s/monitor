@@ -1,0 +1,68 @@
+<?php
+
+return [
+    'user1' => [
+        'id' => 1,
+        'created_at' => '2018-07-23 08:49:59.252',
+        'email' => 'testemail1@gmail.com',
+        'first_name' => 'FirstName11',
+        'last_name' => 'LastName12',
+        'password' => '$2sy$11$vZktFsdfsdfdsfqSKLDSDMZ97AGkG',
+        'personal_number' => '1111',
+        'curator_id' => 3,
+        'personal_id' => 4,
+        'updated_at' => '2019-07-22 16:01:36',
+        'auth_key' => null,
+        'confirm_token' => null,
+        'status' => 1,
+        'balance' => 5.20
+    ],
+    'user2' => [
+        'id' => 2,
+        'created_at' => '2018-07-23 08:49:59.252',
+        'email' => 'testemail2@gmail.com',
+        'first_name' => 'FirstName21',
+        'last_name' => 'LastName22',
+        'password' => '$2sy$11$vZktFsdfsdfdsfqSKLDSDMZ97AGkG',
+        'personal_number' => '2222',
+        'curator_id' => 3,
+        'personal_id' => 4,
+        'updated_at' => '2019-07-22 16:01:36',
+        'auth_key' => null,
+        'confirm_token' => null,
+        'status' => 1,
+        'balance' => 58.20
+    ],
+    'user3' => [
+        'id' => 3,
+        'created_at' => '2018-07-23 08:49:59.252',
+        'email' => 'testemail3@gmail.com',
+        'first_name' => 'FirstName31',
+        'last_name' => 'LastName32',
+        'password' => '$2sy$11$vZktFsdfsdfdsfqSKLDSDMZ97AGkG',
+        'personal_number' => '3333',
+        'curator_id' => 3,
+        'personal_id' => 4,
+        'updated_at' => '2019-07-22 16:01:36',
+        'auth_key' => null,
+        'confirm_token' => null,
+        'status' => 1,
+        'balance' => 584.20
+    ],
+    'user4' => [
+        'id' => 4,
+        'created_at' => '2018-07-23 08:49:59.252',
+        'email' => 'testemail4@gmail.com',
+        'first_name' => 'FirstName41',
+        'last_name' => 'LastName42',
+        'password' => '$2sy$11$vZktFsdfsdfdsfqSKLDSDMZ97AGkG',
+        'personal_number' => '4444',
+        'curator_id' => 3,
+        'personal_id' => 4,
+        'updated_at' => '2019-07-22 16:01:36',
+        'auth_key' => null,
+        'confirm_token' => null,
+        'status' => 1,
+        'balance' => 5840.20
+    ],
+];

@@ -1,0 +1,12 @@
+suite_namespace: common\tests\unit
+actor: UnitTester
+modules:
+    enabled:
+        - Yii2:
+            part: [orm, email, fixtures]
+        - Asserts
+        - Db: # директива не работает
+              dsn: 'pgsql:host=localhost;dbname=monitor'
+              user: 'monitor'
+              password: 'LKJ8923jkds8aksuh3'
+              cleanup: false

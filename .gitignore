@@ -1,0 +1,16 @@
+# User-specific stuff
+.idea
+
+!frontend/web/uploads/.gitkeep
+frontend/web/assets/*
+backend/web/assets/*
+backend/runtime/*
+console/runtime/*
+frontend/runtime/*
+frontend/web/uploads/*
+!frontend/web/uploads/docs/*
+backend/web/uploads/*
+!backend/web/uploads/docs/*
+.well-known
+composer.lock
+vendor/*

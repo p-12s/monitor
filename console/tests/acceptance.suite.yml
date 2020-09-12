@@ -1,0 +1,13 @@
+suite_namespace: console\tests\acceptance
+actor: AcceptanceTester
+modules:
+    enabled:
+        - WebDriver:
+            url: http://localhost:8080 # норм адрес через nginx сделать
+            browser: firefox
+        - Yii2:
+            part: init
+#coverage:
+#    enabled: true
+#    remote: true
+#    c3_url: 'http://site.local/index-test.php'

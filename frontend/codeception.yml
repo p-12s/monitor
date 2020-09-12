@@ -1,0 +1,18 @@
+namespace: frontend\tests
+actor_suffix: Tester
+bootstrap: _bootstrap.php
+paths:
+    tests: tests
+    output: tests/_output
+    data: tests/_data
+    support: tests/_support
+settings:
+    colors: true
+    memory_limit: 1024M
+    log: true
+modules:
+    config:
+        Yii2:
+            configFile: 'config/codeception-local.php'
+#config: пригодится при других тестах
+#    test_entry_url: 'http://site.local/index-test.php'
