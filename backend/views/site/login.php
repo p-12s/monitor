@@ -14,7 +14,7 @@ $this->params['breadcrumbs'][] = $this->title;
             <?= $form->field($model, 'rememberMe')->checkbox()->hiddenInput()->label('')?>
             <?= $form->field($model, 'reCaptcha')->widget(
                 \himiklab\yii2\recaptcha\ReCaptcha2::className(),
-                ['siteKey' => '6Ld_y7wUAAAAAIzN6dcKht8tNiQWdaI7S7KtZ0uE'])->label('') ?>
+                ['siteKey' => 'RECAPTHCA_KEY'])->label('') ?>
             <div class="form-group">
                 <?= Html::submitButton('Войти', ['class' => 'btn btn-primary', 'name' => 'login-button']) ?>
             </div>
