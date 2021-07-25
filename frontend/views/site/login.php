@@ -24,7 +24,7 @@
     <label class="show-pass"><input type="checkbox" id="show-password"> Показать пароль</label>
     <?= $form->field($model, 'reCaptcha')->widget(
         \himiklab\yii2\recaptcha\ReCaptcha2::className(),
-        ['siteKey' => '6Ld_y7wUAAAAAIzN6dcKht8tNiQWdaI7S7KtZ0uE'])->label('') ?>
+        ['siteKey' => 'RECAPTHCA_KEY'])->label('') ?>
     <div class="login-rpass">
         <?= Html::a('Забыли пароль?', ['site/request-password-reset']) ?>
     </div>
